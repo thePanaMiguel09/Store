@@ -21,7 +21,7 @@ public class HomePage extends javax.swing.JFrame {
         initComponents();
         Bar x = new Bar();
         x.setBounds(0, 0, 300, 200);
-        this.add(x);
+        
     }
 
     /**
