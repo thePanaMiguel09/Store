@@ -4,6 +4,8 @@
  */
 package Controller;
 
+import java.util.Scanner;
+
 /**
  *
  * @author migui
@@ -14,6 +16,10 @@ public class Prueba {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Scanner x = new Scanner(System.in);
+        int a = x.nextInt();
+        System.out.println(a);
         System.out.println("VIVA CRISTO");
+        
     }
 }
